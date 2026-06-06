@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-background border-t border-border">
       <div className="container-page py-14 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
-          <img src={logo.url} alt="Jaha Solutions" className="h-10 w-auto mb-4" />
+          <img src={logo.url} alt="Jaha Solutions" className="h-32 w-auto mb-4" />
           <p className="text-sm text-muted-foreground max-w-sm">
             Custom Software · AI Solutions · Automation · Digital Transformation
           </p>
