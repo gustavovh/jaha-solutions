@@ -82,6 +82,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Jaha Solutions" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Jaha Solutions" },
+      { name: "twitter:title", content: "Jaha Solutions" },
+      { property: "og:description", content: "Custom software, AI, automation, and digital transformation services." },
+      { name: "twitter:description", content: "Custom software, AI, automation, and digital transformation services." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/04a0171b-76f7-43df-8c53-3c3cec041bbe/id-preview-736f5f44--0d10bcd5-2c40-4a32-af17-3c8f274ada78.lovable.app-1780775302142.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/04a0171b-76f7-43df-8c53-3c3cec041bbe/id-preview-736f5f44--0d10bcd5-2c40-4a32-af17-3c8f274ada78.lovable.app-1780775302142.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
