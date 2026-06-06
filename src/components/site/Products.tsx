@@ -54,7 +54,7 @@ export function Products() {
               </div>
             </div>
             <div className="relative bg-[oklch(0.62_0.17_145)] flex items-center justify-center p-8 min-h-[280px]">
-              <img src={jahaDealsLogo.url} alt="Jaha Deals" className="max-w-md w-full h-auto drop-shadow-2xl" />
+              <img src={jahaDealsLogo.url} alt="Jaha Deals" className="max-w-3xl w-full h-auto drop-shadow-2xl" />
             </div>
           </div>
         </FadeIn>
