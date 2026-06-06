@@ -15,12 +15,6 @@ export function Hero() {
       <div className="container-page pt-16 pb-20 md:pt-24 md:pb-28">
         <div className="grid lg:grid-cols-[1.1fr_1fr] gap-12 lg:gap-16 items-center">
           <div>
-            <motion.div
-              initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-medium text-muted-foreground mb-6"
-            >
-              <span className="h-1.5 w-1.5 rounded-full bg-brand-green" /> Now expanding to the U.S. market
-            </motion.div>
             <motion.h1
               initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.05 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] text-foreground"
