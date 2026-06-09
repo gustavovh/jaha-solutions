@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Send } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+import { createServerFn } from "@tanstack/react-start";
 
 export function CTASection() {
   const [form, setForm] = useState({ name: "", email: "", company: "", message: "" });
@@ -28,10 +29,10 @@ export function CTASection() {
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
             <Button size="lg" variant="secondary" asChild>
-              <a href="mailto:hello@jahasolutions.com">Schedule a Consultation <ArrowRight className="ml-1 h-4 w-4" /></a>
+              <a href="mailto:jim.neff@jahasolutions.com">Schedule a Consultation <ArrowRight className="ml-1 h-4 w-4" /></a>
             </Button>
             <Button size="lg" variant="outline" className="bg-transparent text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground/10 hover:text-primary-foreground" asChild>
-              <a href="mailto:hello@jahasolutions.com">Request a Demo</a>
+              <a href="mailto:jim.neff@jahasolutions.com">Request a Demo</a>
             </Button>
           </div>
         </div>
