@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Send } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import { createServerFn } from "@tanstack/react-start";
 
 export function CTASection() {
   const [form, setForm] = useState({ name: "", email: "", company: "", message: "" });
