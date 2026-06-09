@@ -26,8 +26,8 @@ export function Footer() {
           <div className="text-sm font-semibold mb-3">Contact</div>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li className="flex items-center gap-2"><Mail className="h-4 w-4" /> <a href="mailto:hello@jahasolutions.com" className="hover:text-foreground">hello@jahasolutions.com</a></li>
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4" /> <a href="tel:+10000000000" className="hover:text-foreground">+1 (000) 000-0000</a></li>
-            <li className="flex items-center gap-2"><MessageCircle className="h-4 w-4" /> <a href="https://wa.me/10000000000" className="hover:text-foreground">WhatsApp</a></li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4" /> <a href="tel:+18016882604" className="hover:text-foreground">+1 (801) 688-2604</a></li>
+            <li className="flex items-center gap-2"><MessageCircle className="h-4 w-4" /> <a href="https://wa.me/18016882604" className="hover:text-foreground">WhatsApp</a></li>
             <li className="flex items-center gap-2"><Linkedin className="h-4 w-4" /> <a href="#" className="hover:text-foreground">LinkedIn</a></li>
           </ul>
         </div>
