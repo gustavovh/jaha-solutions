@@ -1,4 +1,4 @@
-import { Mail, Phone, MessageCircle, Linkedin } from "lucide-react";
+import { Mail, Phone, MessageCircle } from "lucide-react";
 import logo from "@/assets/jaha-solutions-logo.png.asset.json";
 
 export function Footer() {
@@ -25,10 +25,9 @@ export function Footer() {
         <div>
           <div className="text-sm font-semibold mb-3">Contact</div>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4" /> <a href="mailto:hello@jahasolutions.com" className="hover:text-foreground">hello@jahasolutions.com</a></li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4" /> <a href="mailto:jim.neff@jahasolutions.com" className="hover:text-foreground">jim.neff@jahasolutions.com</a></li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4" /> <a href="tel:+18016882604" className="hover:text-foreground">+1 (801) 688-2604</a></li>
             <li className="flex items-center gap-2"><MessageCircle className="h-4 w-4" /> <a href="https://wa.me/18016882604" className="hover:text-foreground">WhatsApp</a></li>
-            <li className="flex items-center gap-2"><Linkedin className="h-4 w-4" /> <a href="#" className="hover:text-foreground">LinkedIn</a></li>
           </ul>
         </div>
       </div>

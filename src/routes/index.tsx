@@ -9,7 +9,6 @@ import { WhyUs } from "@/components/site/WhyUs";
 import { CaseStudies } from "@/components/site/CaseStudies";
 import { Process } from "@/components/site/Process";
 import { TechStack } from "@/components/site/TechStack";
-import { Testimonials } from "@/components/site/Testimonials";
 import { CTASection } from "@/components/site/CTASection";
 import { Footer } from "@/components/site/Footer";
 import { Toaster } from "@/components/ui/sonner";
@@ -52,7 +51,6 @@ function Index() {
       <CaseStudies />
       <Process />
       <TechStack />
-      <Testimonials />
       <CTASection />
       <Footer />
       <Toaster />
