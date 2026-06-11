@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/jaha-solutions-logo.png.asset.json";
+import logo from "@/assets/jaha-solutions-logo.png";
 import { Button } from "@/components/ui/button";
 
 const links = [
@@ -18,7 +18,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="container-page flex h-32 items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
-          <img src={logo.url} alt="Jaha Solutions" className="h-28 w-auto" />
+          <img src={logo} alt="Jaha Solutions" className="h-28 w-auto" />
         </a>
         <nav className="hidden lg:flex items-center gap-8">
           {links.map((l) => (
