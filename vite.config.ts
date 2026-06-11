@@ -12,4 +12,15 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    preview: {
+      allowedHosts: [
+        "solutions.jaha.app",
+        "www.solutions.jaha.app",
+      ],
+    },
+  },
+
+
+
 });
